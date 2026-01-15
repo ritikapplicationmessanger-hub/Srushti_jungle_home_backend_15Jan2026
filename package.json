@@ -1,14 +1,35 @@
 {
-  "name": "backend",
+  "name": "hotel-management-api",
   "version": "1.0.0",
+  "description": "Hotel Management API - Backend service for managing hotel operations including bookings, rooms, payments, and more",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js",
+    "prod": "NODE_ENV=production node server.js",
+    "pm2:start": "pm2 start ecosystem.config.js --env production",
+    "pm2:dev": "pm2 start ecosystem.config.js --env development",
+    "pm2:stop": "pm2 stop hotel-management-api",
+    "pm2:restart": "pm2 restart hotel-management-api",
+    "pm2:reload": "pm2 reload hotel-management-api",
+    "pm2:logs": "pm2 logs hotel-management-api",
+    "pm2:monit": "pm2 monit",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "hotel",
+    "management",
+    "api",
+    "booking",
+    "express",
+    "mongodb"
+  ],
+  "author": "The Core Pench Hotel",
   "license": "ISC",
-  "description": "",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.5",
