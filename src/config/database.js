@@ -37,6 +37,7 @@
 
 const mongoose = require("mongoose");
 const logger = require("../utils/logger");
+console.log("MONGODB_URI:", process.env.MONGODB_URI ? "FOUND" : "MISSING");
 
 let cached = global.mongoose;
 
@@ -87,3 +88,4 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
+
