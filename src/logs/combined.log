@@ -753,3 +753,27 @@
 {"level":"info","message":"Environment: development","service":"hotel-management-api","timestamp":"2026-01-15 14:41:02"}
 {"level":"info","message":"API Base URL: http://localhost:5000/api/v1","service":"hotel-management-api","timestamp":"2026-01-15 14:41:02"}
 {"level":"info","message":"Health Check: http://localhost:5000/health","service":"hotel-management-api","timestamp":"2026-01-15 14:41:02"}
+{"level":"info","message":"MongoDB Connected: ac-nwy9g8o-shard-00-00.0x6dnmm.mongodb.net","service":"hotel-management-api","timestamp":"2026-01-15 17:52:44"}
+{"level":"info","message":"Users already exist (2). Skipping super admin creation.","service":"hotel-management-api","timestamp":"2026-01-15 17:52:45"}
+{"level":"error","message":"Email server connection failed:","service":"hotel-management-api","timestamp":"2026-01-15 17:52:45"}
+{"level":"info","message":"Server is running on port 5000","service":"hotel-management-api","timestamp":"2026-01-15 17:52:45"}
+{"level":"info","message":"Environment: development","service":"hotel-management-api","timestamp":"2026-01-15 17:52:45"}
+{"level":"info","message":"API Base URL: http://localhost:5000/api/v1","service":"hotel-management-api","timestamp":"2026-01-15 17:52:45"}
+{"level":"info","message":"Health Check: http://localhost:5000/health","service":"hotel-management-api","timestamp":"2026-01-15 17:52:45"}
+{"level":"info","message":"MongoDB reconnected","service":"hotel-management-api","timestamp":"2026-01-15 19:00:18"}
+{"level":"info","message":"MongoDB reconnected","service":"hotel-management-api","timestamp":"2026-01-15 19:00:18"}
+{"level":"info","message":"MongoDB Connected: ac-nwy9g8o-shard-00-00.0x6dnmm.mongodb.net","service":"hotel-management-api","timestamp":"2026-01-16 12:37:17"}
+{"level":"info","message":"Users already exist (2). Skipping super admin creation.","service":"hotel-management-api","timestamp":"2026-01-16 12:37:18"}
+{"level":"error","message":"Email server connection failed:","service":"hotel-management-api","timestamp":"2026-01-16 12:37:18"}
+{"level":"info","message":"Server is running on port 5000","service":"hotel-management-api","timestamp":"2026-01-16 12:37:18"}
+{"level":"info","message":"Environment: development","service":"hotel-management-api","timestamp":"2026-01-16 12:37:18"}
+{"level":"info","message":"API Base URL: http://localhost:5000/api/v1","service":"hotel-management-api","timestamp":"2026-01-16 12:37:18"}
+{"level":"info","message":"Health Check: http://localhost:5000/health","service":"hotel-management-api","timestamp":"2026-01-16 12:37:18"}
+{"level":"info","message":"SIGINT received: closing HTTP server and database connection","service":"hotel-management-api","timestamp":"2026-01-16 12:42:46"}
+{"level":"info","message":"MongoDB Connected: ac-nwy9g8o-shard-00-00.0x6dnmm.mongodb.net","service":"hotel-management-api","timestamp":"2026-01-16 12:42:50"}
+{"level":"info","message":"Users already exist (2). Skipping super admin creation.","service":"hotel-management-api","timestamp":"2026-01-16 12:42:50"}
+{"level":"error","message":"Email server connection failed:","service":"hotel-management-api","timestamp":"2026-01-16 12:42:50"}
+{"level":"info","message":"Server is running on port 5000","service":"hotel-management-api","timestamp":"2026-01-16 12:42:50"}
+{"level":"info","message":"Environment: development","service":"hotel-management-api","timestamp":"2026-01-16 12:42:50"}
+{"level":"info","message":"API Base URL: http://localhost:5000/api/v1","service":"hotel-management-api","timestamp":"2026-01-16 12:42:50"}
+{"level":"info","message":"Health Check: http://localhost:5000/health","service":"hotel-management-api","timestamp":"2026-01-16 12:42:50"}

@@ -175,3 +175,7 @@
 {"level":"error","message":"Email server connection failed:","service":"hotel-management-api","timestamp":"2026-01-14 17:22:32"}
 {"level":"error","message":"Uncaught Exception: server is not defined","service":"hotel-management-api","stack":"ReferenceError: server is not defined\n    at gracefulShutdown (E:\\Compony_projects\\Srushti_Jungle_Safari\\backend\\server.js:13:3)\n    at process.<anonymous> (E:\\Compony_projects\\Srushti_Jungle_Safari\\backend\\server.js:24:28)\n    at process.emit (node:events:518:28)","timestamp":"2026-01-15 14:40:23"}
 {"level":"error","message":"Email server connection failed:","service":"hotel-management-api","timestamp":"2026-01-15 14:41:02"}
+{"level":"error","message":"Email server connection failed:","service":"hotel-management-api","timestamp":"2026-01-15 17:52:45"}
+{"level":"error","message":"Email server connection failed:","service":"hotel-management-api","timestamp":"2026-01-16 12:37:18"}
+{"level":"error","message":"Uncaught Exception: server is not defined","service":"hotel-management-api","stack":"ReferenceError: server is not defined\n    at gracefulShutdown (E:\\Compony_projects\\Srushti_Jungle_Safari\\backend\\server.js:13:3)\n    at process.<anonymous> (E:\\Compony_projects\\Srushti_Jungle_Safari\\backend\\server.js:24:28)\n    at process.emit (node:events:518:28)","timestamp":"2026-01-16 12:42:46"}
+{"level":"error","message":"Email server connection failed:","service":"hotel-management-api","timestamp":"2026-01-16 12:42:50"}

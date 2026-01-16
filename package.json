@@ -1,46 +1,28 @@
 {
-  "name": "hotel-management-api",
+  "name": "mongoose_backend",
   "version": "1.0.0",
-  "description": "Hotel Management API - Backend service for managing hotel operations including bookings, rooms, payments, and more",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "NODE_ENV=development node server.js",
-    "prod": "NODE_ENV=production node server.js",
-    "pm2:start": "pm2 start ecosystem.config.js --env production",
-    "pm2:dev": "pm2 start ecosystem.config.js --env development",
-    "pm2:stop": "pm2 stop hotel-management-api",
-    "pm2:restart": "pm2 restart hotel-management-api",
-    "pm2:reload": "pm2 reload hotel-management-api",
-    "pm2:logs": "pm2 logs hotel-management-api",
-    "pm2:monit": "pm2 monit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "hotel",
-    "management",
-    "api",
-    "booking",
-    "express",
-    "mongodb"
-  ],
-  "author": "The Core Pench Hotel",
+  "author": "",
   "license": "ISC",
-  "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=9.0.0"
-  },
+  "description": "",
   "dependencies": {
-    "bcryptjs": "^3.0.3",
+    "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
     "dotenv": "^17.2.3",
-    "express": "^5.2.1",
-    "express-rate-limit": "^8.2.1",
+    "exceljs": "^4.4.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
     "helmet": "^8.1.0",
-    "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.0.2",
-    "morgan": "^1.10.1",
-    "nodemailer": "^7.0.12",
-    "winston": "^3.19.0"
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.2",
+    "multer": "^2.0.2",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.10",
+    "uuid": "^13.0.0",
+    "zod": "^4.1.12"
   }
 }
